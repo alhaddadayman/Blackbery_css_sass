@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+header{
+    width: 100%;
+    padding: 55px 0px 0px 0px;
+}
+.nav{
+    background-color:#2e2e2e ;
+    display: inline-block;
+    width: 100%;
+}
+.logo{
+    float: left;
+    margin: 14px 0px 0px 13px;
+}
+.nav1{
+    float: right;
+}
+
+.nav1 ul li a{
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.nav1 ul li{
+    display: inline;
+    margin: 0px 90px 0px 0px;
+
+}
+.items{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.items article img{
+
+    width: 70%;
+}
+.items article p{
+    width: 70%;
+}
+
+
+.items aside img{
+    width: 60%;
+}
+.items aside{
+    width: 30%;
+}
+h1, h4, p{
+    color: rgb(199, 199, 199);
+}
+h4, p{
+    font-family: 'Merriweather', serif;
+}
+
+aside p{
+    padding: 10px;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+
+}
+iframe{
+   padding: 0;
+   width: 90%;
+   height: 35%;
+}
+
+.footer{
+    display: inline-flex;
+    width: 100%;
+    height: 310px;
+    background-color: rgb(253, 253, 253);
+    
+}
+.footer span iframe{
+    padding: 3px 0px 0px 9px;
+    width: 900px;
+    height: 300px;
+}
+.footer span div i{
+    margin: 10px;
+    display: flex;
+    color: rgb(3, 3, 3);
+    font-size: 70px;
+    opacity: 0.5;
+}
+.footer span div i:hover{
+    opacity: 1.0;
+
+}
+
+.footer span div{
+    margin: 40px 0px 0px 145px;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
